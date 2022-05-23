@@ -19,3 +19,7 @@ void Fase::inicializaElementos()
 	listaEntidades->LEs.push(jogador1);
 	listaEntidades->LEs.push(i1);
 }
+
+void Fase::gerenciar_colisoes()
+{
+}

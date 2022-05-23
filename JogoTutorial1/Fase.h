@@ -1,11 +1,13 @@
 #pragma once
+#include "Ente.h"
 #include "Jogador.h"
 #include "Inimigo.h"
 #include "ListaEntidades.h"
 #include <SFML/Graphics.hpp>
-class Fase
+class Fase:
+	public Ente
 {
-private:
+protected:
 	ListaEntidades* listaEntidades;
 	Inimigo* i1;
 	Jogador* jogador1;
@@ -15,5 +17,7 @@ public:
 	~Fase();
 	void inicializaElementos();
 	ListaEntidades* getListaEntidades() { return listaEntidades; }
+	virtual void executar() = 0;
+	void gerenciar_colisoes();
 };
 

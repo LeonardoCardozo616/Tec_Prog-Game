@@ -145,23 +145,49 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Ente.cpp" />
     <ClCompile Include="Entidade.cpp" />
     <ClCompile Include="Fase.cpp" />
+    <ClCompile Include="Fase1.cpp" />
+    <ClCompile Include="Fase2.cpp" />
     <ClCompile Include="Inimigo.cpp" />
+    <ClCompile Include="Inimigo_A.cpp" />
+    <ClCompile Include="Inimigo_B.cpp" />
+    <ClCompile Include="Inimigo_C.cpp" />
     <ClCompile Include="Jogador.cpp" />
     <ClCompile Include="Jogo.cpp" />
-    <ClCompile Include="JogoTutorial1.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="ListaEntidades.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Obstaculo.cpp" />
+    <ClCompile Include="Obst_A.cpp" />
+    <ClCompile Include="Obst_B.cpp" />
+    <ClCompile Include="Obst_C.cpp" />
+    <ClCompile Include="Personagem.cpp" />
+    <ClCompile Include="Projetil.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Elemento.h" />
+    <ClInclude Include="Ente.h" />
     <ClInclude Include="Entidade.h" />
     <ClInclude Include="Fase.h" />
+    <ClInclude Include="Fase1.h" />
+    <ClInclude Include="Fase2.h" />
     <ClInclude Include="Inimigo.h" />
+    <ClInclude Include="Inimigo_A.h" />
+    <ClInclude Include="Inimigo_B.h" />
+    <ClInclude Include="Inimigo_C.h" />
     <ClInclude Include="Jogador.h" />
     <ClInclude Include="Jogo.h" />
     <ClInclude Include="Lista.h" />
     <ClInclude Include="ListaEntidades.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Obstaculo.h" />
+    <ClInclude Include="Obst_A.h" />
+    <ClInclude Include="Obst_B.h" />
+    <ClInclude Include="Obst_C.h" />
+    <ClInclude Include="Personagem.h" />
+    <ClInclude Include="Projetil.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
