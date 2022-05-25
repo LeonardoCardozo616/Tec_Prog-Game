@@ -9,7 +9,7 @@ int main()
     //texture.loadFromFile("TexturaTeste.png");
     //shape.setTexture(texture);
 
-    printf("wow");
+    printf("wow2");
 
     return 0;
 }
