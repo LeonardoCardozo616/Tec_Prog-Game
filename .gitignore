@@ -3,6 +3,10 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+JogoTutorial1.sln
+JogoTutorial1.vcxproj
+JogoTutorial1.vcxproj.filters
+
 # User-specific files
 *.rsuser
 *.suo
