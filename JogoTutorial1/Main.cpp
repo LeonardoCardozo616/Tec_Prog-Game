@@ -1,4 +1,5 @@
 #include"Jogo.h"
+#include<stdio.h>
 
 int main()
 {
@@ -8,7 +9,7 @@ int main()
     //texture.loadFromFile("TexturaTeste.png");
     //shape.setTexture(texture);
 
-    
+    printf("wow");
 
     return 0;
 }
