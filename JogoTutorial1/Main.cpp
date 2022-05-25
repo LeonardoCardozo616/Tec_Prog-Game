@@ -8,7 +8,7 @@ int main()
     //texture.loadFromFile("TexturaTeste.png");
     //shape.setTexture(texture);
 
-    
+    printf("wow");
 
     return 0;
 }
